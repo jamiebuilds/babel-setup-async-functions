@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "babel-setup-async-functions",
+  "version": "1.0.0",
+  "description": "Example Babel project using async functions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejameskyle/babel-setup-async-functions.git"
+  },
+  "keywords": [
+    "babel",
+    "setup",
+    "async",
+    "functions",
+    "es2015",
+    "es6"
+  ],
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejameskyle/babel-setup-async-functions/issues"
+  },
+  "homepage": "https://github.com/thejameskyle/babel-setup-async-functions#readme",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.1.18"
+  }
+}
